@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #0d0f0f;
+  // height: 8vh;
+
+  &__navList {
+    display: flex;
+    list-style: none;
+
+    li {
+      letter-spacing: 3px;
+      margin-left: 10px;
+
+      a {
+        display: block;
+        padding: 10px;
+      }
+    }
+  }
+}
